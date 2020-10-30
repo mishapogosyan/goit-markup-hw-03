@@ -3,6 +3,12 @@
   --mainfont: 'Roboto', sans-serif;
   --bodycolor: #212121;
 }
+ul {
+	padding-left:0;
+}
+h2, ul{
+	margin:0;
+}
 .container {
 	width: 1170px;
 	padding-right: 15px;
@@ -10,7 +16,9 @@
 	margin-left: auto;
 	margin-right: auto;
 }
-
+.header {
+	border-bottom: 1px solid #ECECEC;
+}
 .header-container {
 	display: flex;
 	justify-content: space-between;
@@ -170,7 +178,9 @@
 	display: flex;
 	justify-content: center;
 }
-
+.services {
+	padding-bottom: 115px;
+}
 .services-card:not(:last-child) {
 	margin-right: 30px;
 }
@@ -186,14 +196,25 @@
 	padding-bottom: 50px;
 }
 
+.team-heading {
+	padding-top: 100px;
+}
+.team {
+	background-color: #F5F4FA;
+	padding-bottom: 70px;
+}
 .team-item, 
 .team-description, 
-.portfolio-name,
-.portfolio-description {
+.portfolio-name {
 	font-family: var(--mainfont);
-	font-size: 16px;
+	font-size: 18px;
 	line-height: 1.187;
 	letter-spacing: 0.03em;
+}
+.portfolio-description {
+	font-size:16px;
+	line-height: 1.875;
+	font-family: var(--mainfont);
 }
 .team-list {
 	display: flex;
@@ -201,6 +222,12 @@
 }
 .team-card:not(:last-child) {
 	margin-right: 30px;
+}
+.team-card {
+	text-align: center;
+	background-color: white;
+	box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+	border-radius: 0px 0px 4px 4px;
 }
 
 .team-item,
@@ -213,6 +240,32 @@
 	color: #757575;
 	font-weight: 400;
 }
+.portfolio {
+	padding-top:94px;
+}
+.portfolio-buttons {
+	display: flex;
+	justify-content: center;
+}
+.portfolio-buuton:not(:last-child) {
+	margin-right: 8px;
+}
+.portfolio-items {
+	padding-top:50px;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.portfolio-card {
+	border: 1px solid #eeeeee;
+	margin-right:10px;
+	margin-bottom: 30px;
+}
+
+	.portfolio-name, .portfolio-description{
+		text-align:center;
+	}
+	
 .logo-footer {
 	color: #fff;
 	font-size: 26px;
@@ -248,6 +301,8 @@
 	letter-spacing: 0.03em;
 	color: var(--bodycolor);
 	text-decoration: none;
+	border: none;
+	padding: 6px 20px;
 
 }
 
@@ -256,6 +311,8 @@
 .portfolio-category:focus {
 	background-color: var(--maincolor);
 	color:#fff;
+	box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+	border-radius: 4px;
 
 }
 .portfolio-items a{

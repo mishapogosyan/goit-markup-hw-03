@@ -14,6 +14,13 @@ h2, ul, p {
 h3 {
 	margin-top: 0;
 }
+
+img {
+	display: block;
+}
+
+
+
 .container {
 	width: 1170px;
 	padding-right: 15px;
@@ -263,24 +270,24 @@ h3 {
 .portfolio-buttons {
 	display: flex;
 	justify-content: center;
+	padding-bottom: 50px;
 }
 .portfolio-buuton:not(:last-child) {
 	margin-right: 8px;
 }
 .portfolio-items {
-	padding-top:50px;
 	display: flex;
 	flex-wrap: wrap;
 }
 
 .portfolio-card {
 	border: 1px solid #eeeeee;
-	margin-right:10px;
+	margin-right:30px;
 	margin-bottom: 30px;
 }
 
 	.portfolio-name, .portfolio-description{
-		text-align:center;
+	padding: 0 24px;
 	}
 	
 .logo-footer {
@@ -322,7 +329,9 @@ h3 {
 	padding: 6px 20px;
 
 }
-
+.portfolio-photo {
+	margin-bottom: 20px;
+}
 .portfolio-category:hover,
 .portfolio-category:active,
 .portfolio-category:focus {
@@ -340,7 +349,9 @@ h3 {
 .portfolio-description:hover {
 	color:var(--maincolor);
 }
-
+.portfolio-description {
+	padding-bottom:30px;
+}
 .current {
 	color:var(--maincolor);
 	text-decoration: none;

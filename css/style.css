@@ -267,7 +267,7 @@ html {
 	font-weight: 400;
 }
 .portfolio {
-	padding-top:94px;
+	padding:94px 0px;
 }
 .portfolio-buttons {
 	display: flex;
@@ -284,7 +284,7 @@ html {
 
 .portfolio-card {
 	margin-right: 30px;
-	margin-bottom: 30px;
+	margin-top: 30px;
 }
 .portfolio-card:nth-child(3n) {
   margin-right: 0;
@@ -304,7 +304,8 @@ html {
 	font-weight: 700;
 	text-decoration: none;
 	line-height: 1.173;
-	margin-bottom: 30px;
+	display: inline-block;
+	margin-bottom: 20px;
 }
 .adress{
 	font-family: var(--mainfont);
@@ -357,9 +358,7 @@ html {
 .portfolio-description:hover {
 	color:var(--maincolor);
 }
-.portfolio-description {
-	padding-bottom:30px;
-}
+
 .current {
 	color:var(--maincolor);
 	text-decoration: none;
@@ -371,4 +370,7 @@ html {
 
 .footer {
 	padding: 60px 0px;
+}
+.contact-footer-item, .adress {
+	margin-bottom: 10px;
 }

@@ -272,7 +272,7 @@ html {
 .portfolio-buttons {
 	display: flex;
 	justify-content: center;
-	padding-bottom: 50px;
+	margin-bottom: 50px;
 }
 .portfolio-buuton:not(:last-child) {
 	margin-right: 8px;
@@ -304,6 +304,7 @@ html {
 	font-weight: 700;
 	text-decoration: none;
 	line-height: 1.173;
+	margin-bottom: 30px;
 }
 .adress{
 	font-family: var(--mainfont);
@@ -313,6 +314,7 @@ html {
 	font-size: 14px;
 	line-height: 1.714;
 	letter-spacing: 0.03em;
+	
 }
 .contact-footer a {
 	text-decoration: none;
@@ -322,6 +324,7 @@ html {
 	line-height: 1.172;
 	color: rgba(255, 255, 255, 0.6);
 	font-style: normal;
+
 
 }
 .portfolio-category {
@@ -367,5 +370,5 @@ html {
 }
 
 .footer {
-	padding: 25px 0px;
+	padding: 60px 0px;
 }
